@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AR Learning Platform.
 
-Currently, two official plugins are available:
+This project was created by (react + tailwind + vite).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## This project's 3 features:
+
+- 9 Programming-related courses.
+- 2 Types of cards (course details cards and a selected card).
+- Can select a course by course duration time in the selected card.
+
+
+## How I managed state in my project.
+
+For this project, I used a 2-time useState hook. First used receiving API data from useEffenct hook. It received data as an array in setCurses function. And used this data using useState's first value courses. Second used for onClick handle. After clicking the course data added in useState's function setSelectcourse as an array. Also used this data using useState's first value selectcourse.
