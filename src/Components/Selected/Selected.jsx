@@ -17,11 +17,11 @@ const Selected = ({ selectcourse, }) => {
   
 
   return (
-    <div className="w-[25%] ">
+    <div className="lg:w-[25%]  ">
       <div className="bg-white space-y-3 rounded-lg shadow-lg p-4">
         <h1 className="text-[#2F80ED] font-bold text-[18px]">Credit Hour Remaining {remaining} hr</h1>
         <hr />
-        <h1 className="text-[#1C1B1B] text-[18px] font-bold">Course Name</h1>
+        <h1 className="text-[#1C1B1B] text-[18px] pb-2 font-bold">Course Name</h1>
         <ol className="list-decimal px-4">
         {selectcourse.map((select) => (
           <Select 

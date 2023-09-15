@@ -29,7 +29,6 @@ function App() {
       selectcourse.forEach(item =>{
         count = count + item.course_time
       })
-console.log(count);
       if(count>20){
         return toast.error("Haven't much remaining time", {
           position: "bottom-right",
@@ -65,7 +64,7 @@ console.log(count);
     <>
       
       <h1 className='text-3xl font-bold text-[#1C1B1B] text-center my-8'>Course Registration</h1>
-      <div className='container mx-auto pb-4 gap-3 flex'>
+      <div className='container mx-auto pb-4 gap-3 flex lg:flex-row md:flex-row flex-col-reverse'>
         <Courses handleSelectCourse={handleSelectCourse}></Courses>
         <Selected selectcourse={selectcourse} ></Selected>
         <ToastContainer></ToastContainer>
