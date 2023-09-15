@@ -1,4 +1,5 @@
 import './App.css'
+import Courses from './Components/Courses/Courses'
 
 function App() {
 
@@ -6,7 +7,9 @@ function App() {
     <>
       
       <h1 className='text-3xl font-bold text-[#1C1B1B] text-center my-8'>Course Registration</h1>
-      
+      <div>
+        <Courses></Courses>
+      </div>
       
     </>
   )
