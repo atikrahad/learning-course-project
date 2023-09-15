@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Course = ({ course, handleSelectCourse }) => {
   const { course_img, title, description, price, course_time } = course;
   return (
-    <div className="p-3 space-y-3 bg-[#FFF]  rounded-lg">
+    <div className="p-3 space-y-3  bg-[#FFF] shadow-lg flex flex-col justify-between  rounded-lg">
       <img className="h-52 rounded-lg" src={course_img} alt="" />
       <h1 className="text-[16px] font-bold">{title}</h1>
       <p className="text-sm text-[#1c1b1b99]">{description}</p>
@@ -17,7 +17,7 @@ const Course = ({ course, handleSelectCourse }) => {
       </div>
       <button
         onClick={() => handleSelectCourse(course)}
-        className="w-full py-2 rounded-lg text-white hover:bg-[#2f81edbb] bg-[#2F80ED]"
+        className="w-full  py-2 rounded-lg text-white hover:bg-[#2f81edbb] bg-[#2F80ED]"
       >
         Select
       </button>
