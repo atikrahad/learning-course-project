@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Advanced Machine Learning with TensorFlow",
+      "title": "Deep Learning with TensorFlow",
       "description": "Dive deep into machine learning and neural networks with TensorFlow.",
       "price": 12999,
       "course_time": 10,
