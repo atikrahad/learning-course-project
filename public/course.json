@@ -4,7 +4,7 @@
       "title": "Deep Learning with TensorFlow",
       "description": "Dive deep into machine learning and neural networks with TensorFlow.",
       "price": 12999,
-      "course_time": 10,
+      "course_time": 4,
       "course_img": "https://i.ibb.co/8bsPkTh/Deep-Learning-with-Tensor-Flow.webp"
     },
     {
@@ -12,7 +12,7 @@
       "title": "Mastering Blockchain Development",
       "description": "Become an expert in blockchain technology and smart contract development.",
       "price": 27999,
-      "course_time": 12,
+      "course_time": 6,
       "course_img": "https://i.ibb.co/vh2kdNF/maxresdefault.jpg"
     },
     {
@@ -44,7 +44,7 @@
       "title": "Big Data Analytics and Hadoop",
       "description": "Harness the power of big data with Hadoop and advanced analytics.",
       "price": 19999,
-      "course_time": 10,
+      "course_time": 8,
       "course_img": "https://i.ibb.co/9qx4czX/Top-10-Hadoop-Analytics-Tools-For-Big-Data.png"
     },
     {
